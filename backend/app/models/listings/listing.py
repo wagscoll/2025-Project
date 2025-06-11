@@ -19,7 +19,10 @@ class Listing:
         self.is_active = is_active  # Boolean to indicate if the listing is active
         self.user_rating = user_rating  # Rating of the user who created the listing
 
-Class GetUserListings:
+    # Add: def get_listings(self):
+        # pass
+
+class GetUserListings:
     def __init__(self, user_id):
         self.user_id = user_id
         self.listings = []  # This will hold the listings associated with the user
