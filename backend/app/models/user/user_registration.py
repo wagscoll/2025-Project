@@ -28,8 +28,14 @@ def is_username_taken(username): #bool??
     }
 '''
 
-# if(is_username_taken() and is_email_taken()) = False:
-    # proceed
+if(is_username_taken() and is_email_taken()) == False:
+    trigger_registration()
+
+def trigger_registration():
+    pass
+
+
+
 
 # Hash the password
 

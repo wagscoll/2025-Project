@@ -28,4 +28,12 @@ class GetUserListings:
         self.listings = []  # This will hold the listings associated with the user
         self.get_listings()
 
-    
+
+# Modify Listing Function
+'''
+if(MODIFY_LISTING_BUTTON_CLICKED):
+    modify_listing(listing_id, title, description, price, category, location, image_url)
+
+'''
+
+def modify_listing(listing_id, title?= None, description?= None, price?= None, category?= None, Location?= None, image_url?= None):
