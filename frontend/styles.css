@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #132e00, rgb(88, 219, 48));
+    font-family: Arial, Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: #000000;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align:center
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color:beige;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(127, 25, 223)
+}
